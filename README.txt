@@ -23,23 +23,23 @@ The application allows users to define scenarios, evaluate metrics, calculate sc
 --------------------------------------------------
 
 Implemented Features
-Wizard navigation using CardLayout
-Step indicator for progress tracking
-Automatic metric score calculation (1-5 scale)
-Weighted dimension and scenario scoring
-Gap analysis for weakest dimension
-Back and Next navigation
-Custom scenario support (bonus)
-Use of HashMap and ArrayList
+- Wizard navigation using CardLayout
+- Step indicator for progress tracking
+- Automatic metric score calculation (1-5 scale)
+- Weighted dimension and scenario scoring
+- Gap analysis for weakest dimension
+- Back and Next navigation
+- Custom scenario support (bonus)
+- Use of HashMap and ArrayList
 
 --------------------------------------------------
 
 Technologies Used
-Java SE 17+
-Java Swing
-Java Collections Framework
-Object-Oriented Programming
-No external libraries used
+- Java SE 17+
+- Java Swing
+- Java Collections Framework
+- Object-Oriented Programming
+- No external libraries used
 
 --------------------------------------------------
 
@@ -50,16 +50,22 @@ src/
   model/
   service/
 
+screenshots/
+  (contains all step screenshots)
+
 --------------------------------------------------
 
 Compilation (from src directory)
 
-Windows:
-dir /s /B *.java > sources.txt
-javac -d . @sources.txt
+Windows (Command Prompt or PowerShell):
+javac -d . main\*.java gui\*.java model\*.java service\*.java
 
 Linux / Mac:
-javac -d . $(find . -name "*.java")
+javac -d . main/*.java gui/*.java model/*.java service/*.java
+
+Note: If you have many files and above fails, use:
+- Windows: dir /s /B *.java > sources.txt && javac -d . @sources.txt
+- Linux/Mac: javac -d . $(find . -name "*.java")
 
 --------------------------------------------------
 
@@ -71,13 +77,15 @@ The project does not require any IDE and can be compiled and run using only java
 --------------------------------------------------
 
 Screenshots
+(These files are located in the screenshots folder)
 
-Profile Step: https: screenshots/profile-step.png
+Profile Step: screenshots/profile-step.png
+Define Step: screenshots/define-step.png
+Plan Step: screenshots/plan-step.png
+Collect Step: screenshots/collect-step.png
+Analyse Step: screenshots/analyse-step.png
 
-Define Step: https://raw.githubusercontent.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator/a228224003080baba697beb288fb4ef699479d63/screenshots/define-step.png
+--------------------------------------------------
 
-Plan Step: https://raw.githubusercontent.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator/a228224003080baba697beb288fb4ef699479d63/screenshots/plan-step.png
-
-Collect Step: https://raw.githubusercontent.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator/a228224003080baba697beb288fb4ef699479d63/screenshots/collect-step.png
-
-Analyse Step: https://raw.githubusercontent.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator/a228224003080baba697beb288fb4ef699479d63/screenshots/analyse-step.png
+Additional Documentation
+See the repository root for the UML class diagram and the Project Requirements and Design document.
