@@ -11,7 +11,7 @@ University: Çankaya University
 GitHub Repository:
 https://github.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator
 
----
+
 
 ## Project Overview
 
@@ -27,7 +27,7 @@ The system follows five main steps:
 
 The application allows users to define scenarios, evaluate metrics, calculate scores, and perform gap analysis.
 
----
+
 
 ## Implemented Features
 
@@ -40,7 +40,7 @@ The application allows users to define scenarios, evaluate metrics, calculate sc
 * Custom scenario support (bonus)
 * Use of HashMap and ArrayList
 
----
+
 
 ## Technologies Used
 
@@ -50,7 +50,7 @@ The application allows users to define scenarios, evaluate metrics, calculate sc
 * Object-Oriented Programming
 * No external libraries used
 
----
+
 
 ## Project Structure
 
@@ -60,7 +60,7 @@ src/
 ├── model/
 └── service/
 
----
+
 
 ## Compilation
 
@@ -91,7 +91,7 @@ java main.Main
 
 The project does not require any IDE and can be compiled and run using only javac and java.
 
----
+
 
 ## Screenshots
 
