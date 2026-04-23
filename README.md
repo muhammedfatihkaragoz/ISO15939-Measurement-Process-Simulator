@@ -79,7 +79,7 @@ javac @sources.txt
 javac -d . $(find . -name "*.java")
 ```
 
----
+
 
 ## Run
 
