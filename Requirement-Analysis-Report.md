@@ -28,7 +28,7 @@
 
 * The system supports a custom scenario as a bonus feature.
 
----
+
 
 ## Non-Functional Requirements
 
@@ -46,7 +46,7 @@
 
 * The system shall perform calculations without noticeable delay.
 
----
+
 
 # PROJECT DESIGN
 
@@ -62,7 +62,7 @@ The project follows a layered structure using separate model, service, and GUI c
 
 This separation improves maintainability and readability.
 
----
+
 
 ## Design Approach
 
@@ -72,7 +72,7 @@ This separation improves maintainability and readability.
 
 * User interaction follows a sequential wizard-based workflow.
 
----
+
 
 ## Design Patterns
 
@@ -82,7 +82,7 @@ CardLayout is used to implement step-by-step wizard navigation.
 
 Profile → Define → Plan → Collect → Analyse
 
----
+
 
 ## Data Design
 
@@ -94,7 +94,7 @@ The system uses a hierarchical measurement structure.
 
 * Each Metric stores measurement values and calculated scores.
 
----
+
 
 ## Data Structures
 
@@ -104,7 +104,7 @@ The system uses a hierarchical measurement structure.
 
 * Scenario objects store measurement data.
 
----
+
 
 ## Class Design
 
@@ -128,7 +128,7 @@ The system uses a hierarchical measurement structure.
 
 ![Class Diagram](ClassDiagram.png)
 
----
+
 
 ## Calculation Design
 
@@ -158,7 +158,7 @@ Calculation flow:
 
 6. Gap analysis identifies the weakest dimension.
 
----
+
 
 ## Scenario Management
 
