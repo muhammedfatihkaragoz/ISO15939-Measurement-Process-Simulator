@@ -72,7 +72,7 @@ The project does not require any IDE and can be compiled and run using only java
 
 Screenshots
 
-Profile Step: https://raw.githubusercontent.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator/a228224003080baba697beb288fb4ef699479d63/screenshots/profile-step.png
+Profile Step: https: https://raw.githubusercontent.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator/main/screenshots/profile-step.png
 
 Define Step: https://raw.githubusercontent.com/muhammedfatihkaragoz/ISO15939-Measurement-Process-Simulator/a228224003080baba697beb288fb4ef699479d63/screenshots/define-step.png
 
